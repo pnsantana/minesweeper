@@ -1,1 +1,3 @@
-# minesweeper
+# Minesweeper
+
+Simple HTML & JS Minesweeper

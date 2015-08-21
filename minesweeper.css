@@ -1,0 +1,146 @@
+#wrapper {
+  height: 642px;
+  width: 532px;
+  margin: 30px auto;
+  background-color: #E0E0E0;
+  font-family: arial;
+  border: 5px outset;
+}
+
+header {
+  height: 94px;
+  width: 506px;
+  margin: 10px;
+  background-color: #E0E0E0;
+  border: 3px outset;
+}
+
+.display {
+  height: 80px;
+  margin: 10px 20px;
+  line-height: 80px;
+  font-size: 40px;
+  background-repeat: no-repeat; 
+  text-align: right;
+}
+
+#counter {
+  float: left;
+  width: 100px;
+  background-image: url(flag.png);
+  background-size: 60px 60px;
+  background-position: center left;
+}
+
+#restart {
+  float: left;
+  position: relative;
+  top: 40px;
+  left: 60px;
+}
+
+#timer {
+  float: right;  
+  width: 150px;
+  background-image: url(clock.png);
+  background-position: center left;
+}
+
+#board {
+  clear: left;
+  height: 512px;
+  width: 512px;
+  margin: 10px;
+  background-color: #88EE88;
+}
+
+.row {
+  height: 32px;
+  width: 512px;
+  background-color: #FFF;
+}
+
+.square {
+  float: left;
+  height: 28px;
+  width: 28px;
+  background-color: #E0E0E0;
+  border: 2px outset;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold; 
+}
+
+.left_clicked {
+  border-style: inset;
+}
+
+.right_clicked {
+  background-image: url(flag.png);
+  background-position: center;
+  background-size: 28px 28px;
+}
+
+.value {
+  display: none;
+  background-size: 28px 28px;
+  background-position: center;
+}
+
+.bomb {  
+}
+
+.zero {
+}
+
+.one {
+  color: #3333FF;
+}
+
+.two {
+  color: #33FF33;
+}
+
+.three {
+  color: #FF3333;
+}
+
+.four {
+  color: #1111AA;
+}
+
+.five {
+  color: #BBBB33;
+}
+
+.six {
+  color: #30ECEC;
+}
+
+.seven {
+  color: #884A20;
+}
+
+.eight {
+  color: #AEAEAE;
+}
+
+#clicked_bomb {
+  background: linear-gradient(#5A3333, #D80F0F);
+}
+
+.wrong_flag {
+  background-image: url(bomb.png);
+  background-position: center;
+  background-size: 28px;
+  color: red;
+  line-height: 28px;
+  font-size: 28px;
+  border-style: inset;
+}
+
+
+
+
+
